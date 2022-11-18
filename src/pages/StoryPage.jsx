@@ -4,7 +4,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { ReloadOutlined, LeftOutlined } from '@ant-design/icons';
 import { Card, Button, Divider, Typography } from 'antd';
 import 'antd/dist/antd.css';
-import { uploadComments }  from "../store/actions"; 
 import StoryComment from '../components/StoryComment';
 const { Meta } = Card;
 const { Link } = Typography;
